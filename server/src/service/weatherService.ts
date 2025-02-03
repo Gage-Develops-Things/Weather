@@ -123,8 +123,8 @@ class WeatherService {
     return weatherArray
   }
   // TODO: Complete getWeatherForCity method
-  async getWeatherForCity(city: string) {
-    this.city = city;
+  async getWeatherForCity(cityParams: string) {
+    this.city = cityParams;
     const coords = await this.fetchAndDestructureLocationData();
     const weatherData = await this.fetchWeatherData(coords);
     console.log(weatherData)
