@@ -19,7 +19,7 @@ Download Node.
 n/a
 
 ## Contributing
-no
+Please note that I had a tutor (Andres) help me with the Weather Service typescript file.
 
 ## Tests
 n/a
